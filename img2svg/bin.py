@@ -20,6 +20,7 @@ CONTEXT_SETTINGS = dict(help_option_names=['-?', '-h', '--help'])
 @click.option('-o', '--outfile', help='the output file', default='out.svg', show_default=True)
 @click.option('-C', '--fill-color', help='the fill color', default='#CCCCCC', show_default=True)
 @click.option('-P', '--fill-opacity', help='the fill opacity', default=0.3, show_default=True, type=float)
+@click.version_option(version=version_info['version'], prog_name=version_info['prog'])
 def cli(image: str, conf: Optional[str], outfile: str, fill_color: str, fill_opacity: float) -> None:
     """
     CLI entrypoint for Img2SVG.

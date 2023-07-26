@@ -7,11 +7,13 @@ python3 -m pip install img2svg
 
 ### Usage
 ```bash
-python3 img2svg.py input.png
+img2svg --help
 
-python3 img2svg.py input.png -c conf.txt
+img2svg input.png
 
-python3 img2svg.py input.png -c conf.txt -o output.svg --fill-color '#FF00FF' --fill-opacity 0.5
+img2svg input.png -c conf.txt
+
+img2svg input.png -c conf.txt -o output.svg --fill-color '#FF00FF' --fill-opacity 0.5
 ```
 
 ### Config Format
@@ -27,3 +29,4 @@ x   y   rx  ry  title   link
 721 0   890 720 Liverworts  https://www.baidu.com/s?wd=Liverworts
 891 0   1359    720   Mosses   https://www.baidu.com/s?wd=Mosses
 ```
+
