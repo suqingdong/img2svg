@@ -1,0 +1,2 @@
+include requirements.txt
+include img2svg/version.json
