@@ -1,0 +1,8 @@
+{
+    "prog": "img2svg",
+    "desc": "Convert an image to an SVG format with interactive elements",
+    "url": "https://github.com/suqingdong/img2svg",
+    "author": "suqingdong",
+    "author_email": "suqingdong1114@gmail.com",
+    "version": "1.0.0"
+}
