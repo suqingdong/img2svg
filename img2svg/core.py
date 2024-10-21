@@ -52,7 +52,7 @@ class Img2SVG:
             click.secho(f'>>> reading conf: {conf}', fg='green')
             for linelist in util.parse_conf(conf):
                 print(linelist)
-                position = map(int, linelist[:4])
+                position = map(float, linelist[:4])
                 title = linelist[4]
                 href = linelist[5]
                 a = self.create_linking_element(title=title, href=href)
