@@ -9,6 +9,8 @@ from pysvg.linking import A
 
 from . import util
 
+PILImage.MAX_IMAGE_PIXELS = None
+
 
 class Img2SVG:
     """
